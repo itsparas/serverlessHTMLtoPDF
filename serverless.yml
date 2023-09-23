@@ -1,0 +1,17 @@
+service: pdf-generator
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+  environment:
+    S3_BUCKET: generated-html-to-pdf 
+
+
+functions:
+  generatePdfUrl:
+    handler: handler.generatePdfUrl
+    events:
+      - http:
+          path: generate-pdf
+          method: post
