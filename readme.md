@@ -1,8 +1,8 @@
-# PDF Tool Generator
+# HTML to PDF Generator
 
 ## Description
 
-PDF Tool Generator is a Lambda function that converts HTML strings to PDF, saves the generated PDF to an S3 bucket, and provides the URL of the PDF in the response.
+This is a Lambda function that converts HTML strings to PDF, saves the generated PDF to an S3 bucket, and provides the URL of the PDF in the response.
 
 ## Table of Contents
 
