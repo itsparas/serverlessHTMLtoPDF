@@ -14,7 +14,7 @@ This is a Lambda function that converts HTML strings to PDF, saves the generated
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/itsparas/HTML_TO_PDF_LAMBDA_FUNCTION.git
+git clone https://github.com/itsparas/serverlessHTMLtoPDF.git
 ```
 ### 2. Navigate to the Project Directory
 ```bash
