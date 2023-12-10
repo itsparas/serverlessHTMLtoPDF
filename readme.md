@@ -1,23 +1,27 @@
-# PDF TOOL GENERATOR
+# PDF Tool Generator
 
 ## Description
 
-it converts html string to pdf and saves that pdf to a s3 bucket and send the url of that pdf in response.
+PDF Tool Generator is a Lambda function that converts HTML strings to PDF, saves the generated PDF to an S3 bucket, and provides the URL of the PDF in the response.
 
 ## Table of Contents
 
 - [Installation](#installation)
 
+  
 ## Installation
 
+### 1. Clone the Repository
+
 ```bash
-# Clone the repository
 git clone https://github.com/itsparas/HTML_TO_PDF_LAMBDA_FUNCTION.git
-
-# Navigate to the project directory
-cd HTML_TO_PDF_LAMBDA_FUNCTION
-
-# Install dependencies
-npm install
-
 ```
+### 2. Navigate to the Project Directory
+```bash
+cd serverlessHTMLtoPDF
+```
+### 3. Install Dependencies
+```bash
+npm install
+```
+
