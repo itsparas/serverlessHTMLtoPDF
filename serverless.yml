@@ -15,3 +15,4 @@ functions:
       - http:
           path: generate-pdf
           method: post
+    timeout: 300
